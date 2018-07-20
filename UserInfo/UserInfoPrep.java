@@ -23,8 +23,9 @@ public class UserInfoPrep {
         public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
             String str = value.toString().trim();
             String[] info = str.split("\t");
+            if (info.length != 27) return;
             outputKey.set(info[0]);
-            outputVal.set(info[10] + "\t" + info[11] + "\t" + info[12] + "\t" + info[25] + "\t" + info[5] + "\t" + info[26]);
+            outputVal.set(info[10] + "\t" + info[11] + "\t" + info[25] + "\t" + info[5] + "\t" + info[26]);
             context.write(outputKey, outputVal);
         }
     }
