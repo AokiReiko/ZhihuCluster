@@ -110,11 +110,19 @@ UserID	话题1 次数,话题2 次数, ...
 
 每个用户都有很多浏览次数为1的话题，相比多次浏览的话题，为了提高效率，可以忽略。
 
+
+## 话题向量计算
+使用glove算法对话题进行向量化
+训练文本为话题的介绍文本
+最终生成维度为50的向量
+
+
+
 ## 用户聚类
 
 ### 1. 向量生成
 
-### 2. 抽样 K-Means 
+### 2. 抽样 K-Means
 
 ### 3. K近邻分类
 
@@ -122,11 +130,3 @@ UserID	话题1 次数,话题2 次数, ...
 
 
 
-
-
-
-
-## Related work
-
-1. https://pdfs.semanticscholar.org/ba95/ca14613f9c8dd8412dd108ae4fcb593ca040.pdfA Collaborative Filtering Recommendation Algorithm Based on User Clustering and Item Clustering.
-2. ​
