@@ -109,3 +109,24 @@ UserID	话题1 次数,话题2 次数, ...
 ````
 
 每个用户都有很多浏览次数为1的话题，相比多次浏览的话题，为了提高效率，可以忽略。
+
+## 用户聚类
+
+### 1. 向量生成
+
+### 2. 抽样 K-Means 
+
+### 3. K近邻分类
+
+（待写）
+
+
+
+
+
+
+
+## Related work
+
+1. https://pdfs.semanticscholar.org/ba95/ca14613f9c8dd8412dd108ae4fcb593ca040.pdfA Collaborative Filtering Recommendation Algorithm Based on User Clustering and Item Clustering.
+2. ​
